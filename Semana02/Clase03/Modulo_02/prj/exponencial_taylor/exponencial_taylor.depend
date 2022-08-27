@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1217278551 source:/opt/home/freddy/development/Curso C-C++/Clases/Clase #2/prj/exponencial_taylor/taylor.cpp
+	<iostream>
+	<math.h>
+
+1217780843 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/exponencial_taylor/taylor.cpp
+	<iostream>
+	<math.h>
+

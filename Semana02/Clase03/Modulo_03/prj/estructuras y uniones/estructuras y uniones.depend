@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1608487218 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/estructuras y uniones/estructura_bits.cc
+	<iostream>
+	"../../utilitarios/utilitarios.h"
+
+1217781035 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/utilitarios/utilitarios.h
+
+1608487227 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/estructuras y uniones/main_estructuras.cpp
+	<iostream>
+	"../../utilitarios/utilitarios.h"
+
+1608487236 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/estructuras y uniones/uniones.cc
+	<iostream>
+	"../../utilitarios/utilitarios.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1649248382 source:d:\documents\ucr\ie-0217 estructura de datos y algorithmos para ingenieria\modules\semana02\clase03\modulo_03\utilitarios\utilitarios.cc
+	<stdio.h>
+	"utilitarios.h"
+
+1649248382 d:\documents\ucr\ie-0217 estructura de datos y algorithmos para ingenieria\modules\semana02\clase03\modulo_03\utilitarios\utilitarios.h
+
+1649248382 source:d:\documents\ucr\ie-0217 estructura de datos y algorithmos para ingenieria\modules\semana02\clase03\modulo_03\prj\punteros_basicos\main_punteros_basico.cpp
+	<iostream>
+	"punteros.h"
+
+1649248382 d:\documents\ucr\ie-0217 estructura de datos y algorithmos para ingenieria\modules\semana02\clase03\modulo_03\prj\punteros_basicos\punteros.h
+

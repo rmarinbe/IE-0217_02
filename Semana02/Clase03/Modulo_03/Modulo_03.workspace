@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #02">
+		<Project filename="prj/arreglos/arreglos.cbp" />
+		<Project filename="prj/cadenas_caracteres/cadenas_caracteres.cbp" />
+		<Project filename="prj/estructuras y uniones/estructuras y uniones.cbp" />
+		<Project filename="prj/punteros_basicos/punteros_basicos.cbp" />
+		<Project filename="prj/Funciones_con_argumentos_por_referencia/Funciones_con_argumentos_por_referencia.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

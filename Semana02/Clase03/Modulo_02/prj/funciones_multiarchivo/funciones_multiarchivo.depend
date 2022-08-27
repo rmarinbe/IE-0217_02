@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649184548 source:c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones_multiarchivo\funciones_externas.cpp
+	<iostream>
+	"multiarchivo.h"
+
+1649184548 c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones_multiarchivo\multiarchivo.h
+
+1649184548 source:c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones_multiarchivo\main_multiarchivo.cpp
+	<iostream>
+	"multiarchivo.h"
+

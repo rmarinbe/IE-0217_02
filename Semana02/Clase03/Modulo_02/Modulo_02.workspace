@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #02">
+		<Project filename="prj/Variables/Variables.cbp" />
+		<Project filename="prj/Punto_Flotante/PuntoFlotante.cbp" />
+		<Project filename="prj/variables_mixtas/variables_mixtas.cbp" />
+		<Project filename="prj/funciones_basicas/funciones_basicas.cbp" />
+		<Project filename="prj/Funciones/Funciones.cbp" />
+		<Project filename="prj/funciones_multiarchivo/funciones_multiarchivo.cbp" />
+		<Project filename="prj/lazo_for/lazo_for.cbp" />
+		<Project filename="prj/if/if.cbp" />
+		<Project filename="prj/goto/goto.cbp" />
+		<Project filename="prj/lazo_while/lazo_while.cbp" />
+		<Project filename="prj/exponencial_taylor/exponencial_taylor.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1217780988 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Utilitarios/utilitarios.cc
+	<stdio.h>
+	"utilitarios.h"
+
+1217781035 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Utilitarios/utilitarios.h
+
+1217780960 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/02_C_C++_estructuras/prj/cadenas_caracteres/main_cadenas.cpp
+	<stdio.h>
+	"cadenas.h"
+
+1217781012 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/02_C_C++_estructuras/prj/cadenas_caracteres/cadenas.h
+
+1217780988 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/utilitarios/utilitarios.cc
+	<stdio.h>
+	"utilitarios.h"
+
+1217781035 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/utilitarios/utilitarios.h
+
+1217780960 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/cadenas_caracteres/main_cadenas.cpp
+	<stdio.h>
+	"cadenas.h"
+
+1217781012 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/cadenas_caracteres/cadenas.h
+
+1608487055 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/cadenas_caracteres/string1.cc
+	<stdio.h>
+	"cadenas.h"
+	"../../utilitarios/utilitarios.h"
+

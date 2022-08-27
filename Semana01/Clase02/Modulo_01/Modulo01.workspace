@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #01">
+		<Project filename="prj/caso01/caso01.cbp" />
+		<Project filename="prj/caso02/caso02.cbp" />
+		<Project filename="prj/caso03/caso03.cbp" />
+		<Project filename="prj/caso04/caso04.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

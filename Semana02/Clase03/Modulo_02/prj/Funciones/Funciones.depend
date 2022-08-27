@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649184548 source:c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones\funciones_locales.cpp
+	<stdio.h>
+
+1649184548 source:c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones\funciones_sistema.cpp
+	<stdio.h>
+	<math.h>
+
+1649184548 source:c:\users\freddy\documents\cursos\ucr\ie_0217\cursosemestral\gitcurso\profesor\modoprofesor\semana02\clase03\modulo_02\prj\funciones\main_funciones.cpp
+	<iostream>
+

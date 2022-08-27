@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #04">
+		<Project filename="prj/estructuras_object/estructuras_object.cbp" />
+		<Project filename="prj/estructura_complex/estructura_complex.cbp" />
+		<Project filename="prj/class_general/class_general.cbp" />
+		<Project filename="prj/iostream friend/iostream friend.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

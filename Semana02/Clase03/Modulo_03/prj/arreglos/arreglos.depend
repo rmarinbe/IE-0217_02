@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1217780905 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/arreglos/arreglo1.cc
+	<stdio.h>
+	"arreglos.h"
+
+1217780941 /Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/arreglos/arreglos.h
+
+1217780916 source:/Users/freddy/Documents/Cursos/UCR/IE_0217/Clases_Verano/Semana01/Clase02/Modulo_02/prj/arreglos/main_arreglos.cpp
+	<stdio.h>
+	"arreglos.h"
+
