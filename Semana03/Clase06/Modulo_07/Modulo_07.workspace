@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #07">
+		<Project filename="prj/plantillas(templates)/plantillas(templates).cbp" />
+		<Project filename="prj/Herencia_basica/Herencia_basica.cbp" />
+		<Project filename="prj/Herencia_multiple/Herencia_multiple.cbp" />
+		<Project filename="prj/Soluciones_ecuaciones_template_3incog/Solucion_ecuaciones_templates.cbp" />
+		<Project filename="prj/Herencia y Sobrecarga/Herencia y Sobrecarga.cbp" />
+		<Project filename="prj/solucion_ecuaciones3incognitas/solucion_ecuaciones3incognitas.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

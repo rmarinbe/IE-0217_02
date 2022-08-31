@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #05">
+		<Project filename="prj/punteros_estructuras/punteros_estructuras.cbp" />
+		<Project filename="prj/puntero_referencial/puntero_referencial.cbp" />
+		<Project filename="prj/operador_index/operador_index.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
