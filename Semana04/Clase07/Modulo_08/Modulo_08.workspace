@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #08">
+		<Project filename="prj/pila_basica_vector/pila_basica_vector.cbp" />
+		<Project filename="prj/Pila_vector_dinamico/Pila_vector_dinamico.cbp" />
+		<Project filename="prj/Pila_dinamica/Pila_dinamica.cbp" />
+		<Project filename="prj/Pila_dinamica_template/Pila_dinamica_template.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

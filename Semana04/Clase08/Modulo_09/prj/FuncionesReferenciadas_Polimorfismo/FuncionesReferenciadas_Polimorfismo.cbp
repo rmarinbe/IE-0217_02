@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FuncionesReferencias_Polimorfismo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FuncionesReferenciadas_Polimorfismo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Funciones_referenciadas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../Utilitarios/_complex.cc" />
+		<Unit filename="../Utilitarios/_complex.h" />
+		<Unit filename="../Utilitarios/gauss.h" />
+		<Unit filename="../Utilitarios/utilitarios.cc" />
+		<Unit filename="../Utilitarios/utilitarios.h" />
+		<Unit filename="clases_polimorficas.cc" />
+		<Unit filename="clases_polimorficas.h" />
+		<Unit filename="funciones_ref.h" />
+		<Unit filename="funciones_ref1.cpp" />
+		<Unit filename="funciones_ref2.cpp" />
+		<Unit filename="funciones_ref3.cpp" />
+		<Unit filename="funciones_ref4.cpp" />
+		<Unit filename="funciones_ref5.cpp" />
+		<Unit filename="funciones_ref6.cpp" />
+		<Unit filename="funciones_ref7.cpp" />
+		<Unit filename="funciones_ref_main.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

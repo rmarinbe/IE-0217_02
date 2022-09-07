@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #09">
+		<Project filename="prj/Cola_dinamica/Cola_dinamica.cbp" />
+		<Project filename="prj/Cola_dinamica_template/Cola_dinamica_template.cbp" />
+		<Project filename="prj/Intercambio_pila_cola/Intercambio_pila_cola.cbp" />
+		<Project filename="prj/FuncionesReferenciadas_Polimorfismo/FuncionesReferenciadas_Polimorfismo.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
