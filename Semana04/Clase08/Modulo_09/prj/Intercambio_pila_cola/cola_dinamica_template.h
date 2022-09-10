@@ -15,7 +15,7 @@
 template<typename T>
 struct T_cola{
    T         dato;
-   T_cola   *anterior;
+   T_cola   *proximo;
 };
 
 template<typename T>
@@ -55,13 +55,13 @@ bool _cola<T>::inserte(T info)
   ficha->dato= info;
   if (contador==0)   //condiciones inciales
   {
-    ficha->anterior=final;
+    ficha->proximo=final;
     inicio=final=ficha;
     index=inicio;
   }else		//una condicion mas
   {
-    ficha->anterior=final->anterior;
-    final->anterior=ficha;
+    ficha->proximo=final->proximo;
+    final->proximo=ficha;
     final=ficha;
   }
   contador++;
@@ -74,7 +74,7 @@ bool _cola<T>::extraiga(T *info)
   T_cola<T> *temporal;
   if (!inicio) return false;
   *info=inicio->dato;
-  temporal=inicio->anterior;
+  temporal=inicio->proximo;
   delete inicio;
   inicio=temporal;
   if (!inicio) final=inicio;
@@ -85,8 +85,8 @@ bool _cola<T>::extraiga(T *info)
 template<typename T>
 bool _cola<T>::prev(T *info)
 {
-  if (!index->anterior) return false;
-  index=index->anterior;
+  if (!index->proximo) return false;
+  index=index->proximo;
   *info=index->dato;
   return true;
 }//________________________

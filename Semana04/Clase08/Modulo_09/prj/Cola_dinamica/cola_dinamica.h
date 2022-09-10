@@ -13,7 +13,7 @@
 #define COLA_DINAMICA_H_INCLUDED
 typedef struct S_cola{
    int       dato;
-   S_cola   *anterior;
+   S_cola   *proximo;
 }T_cola;
 
 class _cola {
