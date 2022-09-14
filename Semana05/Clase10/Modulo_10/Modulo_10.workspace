@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #10">
+		<Project filename="prj/listas_abstractas_T/Listas_abstractas_T.cbp" />
+		<Project filename="prj/listas_abstractas_T_polimorficas/Listas_abstractas_T_polimorficas.cbp" />
+		<Project filename="prj/PolimorfismoGeneral/PolimorfismoGeneral.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
