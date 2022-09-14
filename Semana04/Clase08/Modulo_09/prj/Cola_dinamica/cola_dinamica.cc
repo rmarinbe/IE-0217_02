@@ -34,13 +34,13 @@ bool _cola::inserte(int info)
   ficha->dato= info;
   if (contador==0)   //condiciones inciales
   {
-    ficha->anterior=final;
+    ficha->proximo=final;
     inicio=final=ficha;
     index=inicio;
   }else		//una condicion mas
   {
-    ficha->anterior=final->anterior;
-    final->anterior=ficha;
+    ficha->proximo=final->proximo;
+    final->proximo=ficha;
     final=ficha;
   }
   contador++;
@@ -52,7 +52,7 @@ bool _cola::extraiga(int *info)
   T_cola *temporal;
   if (!inicio) return false;
   if (info !=NULL ) *info=inicio->dato;
-  temporal=inicio->anterior;
+  temporal=inicio->proximo;
   delete inicio;
   inicio=temporal;
   index = inicio;
@@ -63,8 +63,8 @@ bool _cola::extraiga(int *info)
 
 bool _cola::prev(int *info)
 {
-  if (!index->anterior) return false;
-  index=index->anterior;
+  if (!index->proximo) return false;
+  index=index->proximo;
   *info=index->dato;
   return true;
 }//________________________
