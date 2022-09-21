@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #11">
+		<Project filename="prj/STL_vector/STL_vector.cbp" />
+		<Project filename="prj/STL_stack/STL_stack.cbp" />
+		<Project filename="prj/STL_queue/STL_queue.cbp" />
+		<Project filename="prj/STL_list/STL_list.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
