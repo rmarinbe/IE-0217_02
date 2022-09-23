@@ -1,5 +1,5 @@
 //===============================================
-//Archivo: main_herencia.cpp
+//Archivo: utilitarios.h
 //===============================================
 // Curso de programación en C/C++
 // Profesor: Freddy Rojas.
@@ -9,20 +9,10 @@
 // uso del material que no sea el planteado
 // inicialmente para material didactico.
 //===============================================
-#include <iostream>
-#include "herencia_basica.h"
-
-//Definición de Clases
-//=====================
-using namespace std;
-
-//MAIN
-//=====
-int main(void)
-{
-  _main objeto_heredado1, objeto_heredado2(20,90);
-  cout << objeto_heredado1.variable_publica_base << endl;
-  cout << objeto_heredado2.variable_publica_main << endl;
-  return 0;
-}//___________________________________________________
-
+#ifndef UTILITARIOS_H_INCLUDED
+#define UTILITARIOS_H_INCLUDED
+//===========
+// UTILITIES
+//===========
+void end_function(void);
+#endif // UTILITARIOS_H_INCLUDED

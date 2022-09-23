@@ -1,5 +1,5 @@
 //===============================================
-//Archivo: main_herencia.cpp
+// Archivo: throw4.cpp
 //===============================================
 // Curso de programación en C/C++
 // Profesor: Freddy Rojas.
@@ -9,20 +9,32 @@
 // uso del material que no sea el planteado
 // inicialmente para material didactico.
 //===============================================
-#include <iostream>
-#include "herencia_basica.h"
 
-//Definición de Clases
-//=====================
+#include <iostream>
+#include <string>
 using namespace std;
 
-//MAIN
-//=====
+// MAIN()
+//========
 int main(void)
 {
-  _main objeto_heredado1, objeto_heredado2(20,90);
-  cout << objeto_heredado1.variable_publica_base << endl;
-  cout << objeto_heredado2.variable_publica_main << endl;
+  int x = 5;
+  int y = 0;
+  int result;
+  try
+  {
+    if (y == 0)
+    {
+      string s = "Divide by zero";
+      throw s;
+    }
+    result = x/y;
+    printf("Resultado %i",result);
+  }
+  catch (string e)
+  {
+    cout << e << endl;
+  }
+  cout << "Goodbye" << endl;
   return 0;
-}//___________________________________________________
-
+}//________________________________________________

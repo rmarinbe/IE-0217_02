@@ -1,5 +1,5 @@
 //===============================================
-//Archivo: main_herencia.cpp
+//Archivo: exception_class.cc
 //===============================================
 // Curso de programación en C/C++
 // Profesor: Freddy Rojas.
@@ -10,19 +10,17 @@
 // inicialmente para material didactico.
 //===============================================
 #include <iostream>
-#include "herencia_basica.h"
-
-//Definición de Clases
-//=====================
 using namespace std;
-
-//MAIN
-//=====
-int main(void)
+#include "exception_class.h"
+_exception::_exception(string Msg): msg(Msg)
 {
-  _main objeto_heredado1, objeto_heredado2(20,90);
-  cout << objeto_heredado1.variable_publica_base << endl;
-  cout << objeto_heredado2.variable_publica_main << endl;
-  return 0;
-}//___________________________________________________
+}//______________________________________________________________
 
+void _exception::getMessage(void)
+{
+    cout << "Undefined error handler by base exception class...!" << endl;
+}//______________________________________________________________
+
+_exception::~_exception(void)
+{
+}//______________________________________________________________

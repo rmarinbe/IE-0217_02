@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #12">
+		<Project filename="prj/Excepciones1/Excepciones1.cbp" />
+		<Project filename="prj/Excepciones2/Excepciones2.cbp" />
+		<Project filename="prj/Excepciones3/Excepciones3.cbp" />
+		<Project filename="prj/Excepciones4/Excepciones4.cbp" />
+		<Project filename="prj/Excepciones5/Excepciones5.cbp" />
+		<Project filename="prj/Excepciones multiclase/Excepciones_multiclase.cbp" />
+		<Project filename="prj/Excepciones polimorficas/Excepciones_polimorficas.cbp" />
+		<Project filename="prj/Soluciones_ecuaciones_template_3incog_excep/Solucion_ecuaciones_template_excep.cbp" />
+		<Project filename="../../../../../AreaDesarrolloIE0217_Actual/Semana06/Clase12/temporal/trybasico/trybasico.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

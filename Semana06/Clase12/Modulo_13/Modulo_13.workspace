@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #13">
+		<Project filename="prj/ordenamiento_burbuja/ordenamiento_burbuja.cbp" />
+		<Project filename="prj/recursividad_quicksort/recursividad_quicksort.cbp" />
+		<Project filename="prj/quicksort_class/quicksort_class.cbp" />
+		<Project filename="prj/quicksort_class_T/quicksort_class_T.cbp" />
+		<Project filename="prj/selection_sort_cost/selection_sort_cost.cbp" />
+		<Project filename="prj/quicksort_class_T_cost/quicksort_class_T_cost.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
