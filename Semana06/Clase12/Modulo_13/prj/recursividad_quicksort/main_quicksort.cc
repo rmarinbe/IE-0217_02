@@ -1,66 +1,56 @@
-//===============================================
-//Archivo: main_quicksort.cc
-//===============================================
-// Curso de programación en C/C++
-// Profesor: Freddy Rojas.
-// Material de curso licencia GPL version 2.0
-//===============================================
-// No se admiten responsabilidades por el
-// uso del material que no sea el planteado
-// inicialmente para material didactico.
-//===============================================
+#include <iostream>
 
-#include <stdio.h>
-#define N 10
-//*****************
-// quicksort
-//*****************
-void quicksort(int Vector[],int left, int right)
+//por simplificacion esta funcion toma el ultimo elemento como pivote
+//se colocan los elementos menores a la izquerda del pivote y
+//los mayores a la derecha.
+int partition(int arr[], int low, int high)
 {
-  int element = Vector[left];
-  int left_in=left,right_in=right,reference;
-  printf("tick...\n");
-  while(left < right)
-  {
-    while ((Vector[right] >= element) && (left < right)) right--;
-    if (left != right)
-    {
-      Vector[left] = Vector[right];
-      Vector[right] = element;
-      left++;
-    }
+    int pivot = arr[high]; // pivote o particion
+    int i = (low- 1); // Index of smaller element and indicates
+                      // the right position of pivot found so far
 
-    while ((Vector[left] < element) && (left < right)) left++;
-    if (left != right)
-    {
-      Vector[right] = Vector[left];
-      Vector[left] = element;
-      right--;
+    for (int j = low; j <= high - 1; j++) {
+        // If current element is smaller than the pivot
+        if (arr[j] < pivot) {
+            i++; // increment index of smaller element
+            std::swap(arr[i], arr[j]);
+        }
     }
-  }
-  reference =left;
-  left=left_in;
-  right=right_in;
-  if (left  < reference) quicksort(Vector,left,reference-1);
-  if (right > reference) quicksort(Vector,reference+1,right);
-}//_________________________________________________________
+    std::swap(arr[i + 1], arr[high]);
+    return (i + 1);
+}
 
-//*************
-// Main()
-//*************
-int main(void)
+/* Implementa QuickSort
+arr[] --> Arreglo a ordernar,
+low --> indice inicial,
+high --> indice final */
+void quickSort(int arr[], int low, int high)
 {
-  int a[N], i;
+    if (low < high) {
+        /* pi is partitioning index, arr[p] is now
+        at right place */
+        int pi = partition(arr, low, high);
 
-  printf("Enter %d numbers to be sorted: ", N);
-  for (i = 0; i < N; i++)
-    scanf("%d", &a[i]);
+        // Recursivamente ordena los elementos antes del pivote y despues del pivote
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
+}
 
-  quicksort(a, 0, N - 1);
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i = 0; i < size; i++)
+        std::cout << arr[i] << " ";
+    std::cout << std::endl;
+}
 
-  printf("In sorted order: ");
-  for (i = 0; i < N; i++)
-    printf("%d ", a[i]);
-  printf("\n");
-  return 0;
-}//________________________________________________________________
+int main()
+{
+    int arr[] = { 10, 7, 8, 9, 1, 5 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    quickSort(arr, 0, n - 1);
+    std::cout << "Arreglo ordenado: \n";
+    printArray(arr, n);
+    return 0;
+}
