@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo#14">
+		<Project filename="prj/for_each/for_each.cbp" />
+		<Project filename="prj/Conjuntos/Conjuntos.cbp" />
+		<Project filename="prj/set1/set1.cbp" />
+		<Project filename="prj/set2/set2.cbp" />
+		<Project filename="prj/set_map/set_map.cbp" />
+		<Project filename="prj/map/map.cbp" />
+		<Project filename="prj/clase2map/clase2map.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
