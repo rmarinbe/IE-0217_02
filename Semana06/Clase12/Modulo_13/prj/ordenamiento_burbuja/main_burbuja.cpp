@@ -1,68 +1,41 @@
-//===============================================
-//Archivo: main_burbuja.cc
-//===============================================
-// Curso de programación en C/C++
-// Profesor: Freddy Rojas.
-// Material de curso licencia GPL version 2.0
-//===============================================
-// No se admiten responsabilidades por el
-// uso del material que no sea el planteado
-// inicialmente para material didactico.
-//===============================================
-
 #include <iostream>
-using namespace std;
 
-// Declaration of swap function
 template<typename T>
 void Swap(T &x, T &y)
 {
-    int temp;
-
-    temp = x;
+    T temp = x;
     x = y;
     y = temp;
-}//______________________________________________________________
+}
 
-
-template<typename T,int N>
-void sort_selection(T a[N])
+template<typename T, int n>
+void bubble_sort(T arr[n])
 {
-  // Selection Sort
-  for (int i = 0; i < (N - 1); i++)
-  {
-    int minIndex = i;
-    // Find the index of the minimum element
-    for (int j = i + 1; j < N; j++)
-    {
-      if (a[j] < a[minIndex])  minIndex = j;
-    }
-    // Swap if i-th element not already smallest
-    if (minIndex > i) Swap<T>(a[i], a[minIndex]);
-  }//for
-}//______________________________________________________________
+    int i, j;
+    for(i=0; i< n; i++)
+        for(j=0; j < n-i-1; j++)
+            if(arr[j] > arr[j+1])
+                Swap<T>(arr[j], arr[j+1]);
+}
 
-//+++++++++++++++++
-// main()
-//+++++++++++++++++
-int main(void)
+int main()
 {
-  const int N = 10;
-  //Initial array
-  //=============
-  int a[N] = {52, 1, 12, 16, 99, 1002,2001, 0, 79, 99};
-  cout << "Inicial"<< endl;
-  for (int i = 0; i < N; i++) cout << i << " " << a[i] << endl;
+    const int N = 10;
+    float a[N] = {2, 1, 5.9, 99, 22, 2.1, 4, 38, 1000, 0};
 
-  //Sort array
-  //==========
-  sort_selection<int,10>(a);
+    # podemos ordenar numeros, en esta caso floats o ints
+    bubble_sort<float, N>(a);
+    std::cout << "Sorted floats:" << std::endl;
+    for(int i=0; i<N; i++)
+        std::cout << a[i] << std::endl;
 
-  // Print sorted results
-  //=====================
-  cout <<"Final"<< endl;
-  for (int i = 0; i < N; i++) cout << i << " " << a[i] << endl;
-  return 0;
-}//_______________________________________________________________
+    # tambien podemos ordenar characteres con el mismo template:
+    char c[N] = {'b','z','a','A','C','c','f','w','h','b'};
+    bubble_sort<char, N>(c);
+    std::cout << "Sorted chars:" << std::endl;
+    for(int i=0; i<N; i++)
+        std::cout << c[i] << std::endl;
 
+    return 0;
+}
 
