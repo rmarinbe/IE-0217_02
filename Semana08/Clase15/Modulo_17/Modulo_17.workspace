@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Modulo #17">
+		<Project filename="prj/Analizador_aritmetico_basico/Analizador_aritmetico_basico.cbp" />
+		<Project filename="prj/Analizador_aritmetico_modificado/Analizador_aritmetico_modificado.cbp" />
+		<Project filename="prj/Analizador_aritmetico_evaluacion_algebraica/Analizador_aritmetico_evaluacion_algebraica.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
