@@ -1,0 +1,37 @@
+Programa con I/O redirigido incia...
+++++++++++++++++++++++++++++++++++++++++
+
+ ==================================================== 
+ [1] Insertar Persona 
+ [2] Insertar Asistente
+ [3] Insertar Estudiante
+ [4] Insertar Estudiante de Computacion
+ [5] Ver la Lista Polimorfica
+ [6] Borrar la Lista Polimorfica
+ [7] Salir
+ ==================================================== 
+> Digite el nombre: Digite la edad: ==================================================== 
+ [1] Insertar Persona 
+ [2] Insertar Asistente
+ [3] Insertar Estudiante
+ [4] Insertar Estudiante de Computacion
+ [5] Ver la Lista Polimorfica
+ [6] Borrar la Lista Polimorfica
+ [7] Salir
+ ==================================================== 
+> Persona:Juan Rojas
+Edad:20
+***************
+
+Digite cualquier tecla para continuar ==================================================== 
+ [1] Insertar Persona 
+ [2] Insertar Asistente
+ [3] Insertar Estudiante
+ [4] Insertar Estudiante de Computacion
+ [5] Ver la Lista Polimorfica
+ [6] Borrar la Lista Polimorfica
+ [7] Salir
+ ==================================================== 
+> Programa con I/O redirigido termina 
+++++++++++++++++++++++++++++++++++++++++
+
