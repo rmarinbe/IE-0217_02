@@ -1,0 +1,48 @@
+1
+KF700
+Apr 2 2018 12:00AM
+Apr 2 2018 12:30AM
+20
+1
+Juan Rojas 
+120
+200
+10
+2
+Marco Pérez 
+121
+200
+10
+3
+K
+0
+2
+MR300
+Apr 5 2018 03:00PM
+Apr 5 2018 05:30PM
+Italia
+1
+Steven Hoover
+123
+400
+12
+1
+Mark Huston
+129
+420
+12
+2
+Marco Rojas 
+321
+200
+10
+3
+K
+0
+4
+K
+0
+0
+0
+0
+0

@@ -1,0 +1,40 @@
+1
+12500
+3
+Carlos Salazar
+Tibas
+13.0
+1
+1200
+Abarrotes varios
+2000
+1
+1201
+Electrónicos
+15200
+2
+K
+0
+3
+K
+2
+12501
+5
+Mario Artavia
+Guadalupe
+13.0
+1
+1200
+Abarrotes varios
+2000
+1
+1201
+Electrónicos
+15200
+2
+K
+0
+3
+K
+0
+0

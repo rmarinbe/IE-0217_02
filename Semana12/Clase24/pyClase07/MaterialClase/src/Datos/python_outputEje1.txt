@@ -1,0 +1,217 @@
+Programa con I/O redirigido inicia...
+++++++++++++++++++++++++++++++++++++++++
+
+ ==================================================== 
+ [1] Insertar factura de Crédito
+ [2] Insertar factura de Contado
+ [3] Ver todas las facturas
+ [4] Borrar lista completa de facturas
+ [0] Salir
+ ==================================================== 
+> 
+1
+Insertando factura de crédito
+Número de factura:
+12500
+Plazo de crédito de factura: 
+3
+Nombre del Cliente: 
+Carlos Salazar
+Dirección del Cliente: 
+Tibas
+Porcentaje de impuestos (%):
+13.0
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+1
+Agregando compra a factura número 3
+Código de compra: 
+1200
+Descripción de compra: 
+Abarrotes varios
+MontoCompra: 
+2000
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+1
+Agregando compra a factura número 3
+Código de compra: 
+1201
+Descripción de compra: 
+Electrónicos
+MontoCompra: 
+15200
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+2
+Mostrando todas las compras de factura número 3
+Código de compra: 1200
+Descripción de compra Abarrotes varios
+MontoCompra 2000.00
+
+Código de compra: 1201
+Descripción de compra Electrónicos
+MontoCompra 15200.00
+
+Digite cualquier tecla para continuar
+K
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+0
+ ==================================================== 
+ [1] Insertar factura de Crédito
+ [2] Insertar factura de Contado
+ [3] Ver todas las facturas
+ [4] Borrar lista completa de facturas
+ [0] Salir
+ ==================================================== 
+> 
+3
+Ver todas las facturas detallados
+Código: 12500
+Plazo de crédito de factura: 3
+Nombre del Cliente: Carlos Salazar
+Dirección del Cliente: Tibas
+Monto sin Impuesto 17200.00
+Impuestos 13.00 (%)
+Total a pagar 19436.00
+
+Digite cualquier tecla para continuar
+K
+ ==================================================== 
+ [1] Insertar factura de Crédito
+ [2] Insertar factura de Contado
+ [3] Ver todas las facturas
+ [4] Borrar lista completa de facturas
+ [0] Salir
+ ==================================================== 
+> 
+2
+Insertando factura de contado
+Número de factura:
+12501
+Porcentaje de descuento: 
+5
+Nombre del Cliente: 
+Mario Artavia
+Dirección del Cliente: 
+Guadalupe
+Porcentaje de impuestos (%):
+13.0
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+1
+Agregando compra a factura número 12501
+Código de compra: 
+1200
+Descripción de compra: 
+Abarrotes varios
+MontoCompra: 
+2000
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+1
+Agregando compra a factura número 12501
+Código de compra: 
+1201
+Descripción de compra: 
+Electrónicos
+MontoCompra: 
+15200
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+2
+Mostrando todas las compras de factura número 12501
+Código de compra: 1200
+Descripción de compra Abarrotes varios
+MontoCompra 2000.00
+
+Código de compra: 1201
+Descripción de compra Electrónicos
+MontoCompra 15200.00
+
+Digite cualquier tecla para continuar
+K
+ ==================================================== 
+ [1] Insertar Compra
+ [2] Ver Compras 
+ [3] Borrar todas las compras
+ [0] Salir y retornar lista de compras de factura
+ ==================================================== 
+> 
+0
+ ==================================================== 
+ [1] Insertar factura de Crédito
+ [2] Insertar factura de Contado
+ [3] Ver todas las facturas
+ [4] Borrar lista completa de facturas
+ [0] Salir
+ ==================================================== 
+> 
+3
+Ver todas las facturas detallados
+Código: 12500
+Plazo de crédito de factura: 3
+Nombre del Cliente: Carlos Salazar
+Dirección del Cliente: Tibas
+Monto sin Impuesto 17200.00
+Impuestos 13.00 (%)
+Total a pagar 19436.00
+
+Código: 12501
+Porcentaje de descuento:: 5
+Nombre del Cliente: Mario Artavia
+Dirección del Cliente: Guadalupe
+Monto sin Impuesto 16340.00
+Impuestos 13.00 (%)
+Total a pagar 18464.20
+
+Digite cualquier tecla para continuar
+K
+ ==================================================== 
+ [1] Insertar factura de Crédito
+ [2] Insertar factura de Contado
+ [3] Ver todas las facturas
+ [4] Borrar lista completa de facturas
+ [0] Salir
+ ==================================================== 
+> 
+0
+Programa con I/O redirigido termina 
+++++++++++++++++++++++++++++++++++++++++
+

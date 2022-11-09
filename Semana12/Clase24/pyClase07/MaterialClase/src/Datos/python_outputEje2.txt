@@ -1,0 +1,178 @@
+Programa con I/O redirigido inicia...
+++++++++++++++++++++++++++++++++++++++++
+
+ ==================================================== 
+ [1] Insertar vuelo local (con pasajeros)
+ [2] Insertar vuelo internacional (con pasajeros)
+ [3] Insertar vuelo carga
+ [4] Ver vuelos
+ [5] Borrar lista completa de vuelos
+ [0] Salir
+ ==================================================== 
+> Asingando vuelo local
+Número de Vuelo:Fecha y hora Salida  (Apr 2 2018 12:00AM): Fecha y hora llegada (Apr 2 2018 12:00AM): Numero mínimo de pasajeros:  ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Asigando pasajero frecuente a vuelo local número KF700
+Nombre del Pasajero:Código de pasajero:Precio del tiquete a pagar ($):Porcentaje de impuestos (%): ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Asigando pasajero NO frecuente a vuelo local número KF700
+Nombre del Pasajero:Código de pasajero:Precio del tiquete a pagar ($):Porcentaje de impuestos (%): ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Mostrando lista de pasajeros a vuelo local número KF700
+Código: 120
+Pasajero Juan Rojas 
+Precio tiquete 200.00
+Impuestos 10.00 (%)
+Total a pagar 0.00
+
+Código: 121
+Pasajero Marco Pérez 
+Precio tiquete 200.00
+Impuestos 10.00 (%)
+Total a pagar 220.00
+
+Digite cualquier tecla para continuar ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+>  ==================================================== 
+ [1] Insertar vuelo local (con pasajeros)
+ [2] Insertar vuelo internacional (con pasajeros)
+ [3] Insertar vuelo carga
+ [4] Ver vuelos
+ [5] Borrar lista completa de vuelos
+ [0] Salir
+ ==================================================== 
+> Asingando vuelo internacional
+Número de Vuelo:Fecha y hora Salida  (Apr 2 2018 12:00AM): Fecha y hora llegada (Apr 2 2018 12:00AM): País destino:  ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Asigando pasajero frecuente a vuelo local número MR300
+Nombre del Pasajero:Código de pasajero:Precio del tiquete a pagar ($):Porcentaje de impuestos (%): ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Asigando pasajero frecuente a vuelo local número MR300
+Nombre del Pasajero:Código de pasajero:Precio del tiquete a pagar ($):Porcentaje de impuestos (%): ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Asigando pasajero NO frecuente a vuelo local número MR300
+Nombre del Pasajero:Código de pasajero:Precio del tiquete a pagar ($):Porcentaje de impuestos (%): ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+> Mostrando lista de pasajeros a vuelo local número MR300
+Código: 123
+Pasajero Steven Hoover
+Precio tiquete 400.00
+Impuestos 12.00 (%)
+Total a pagar 0.00
+
+Código: 129
+Pasajero Mark Huston
+Precio tiquete 420.00
+Impuestos 12.00 (%)
+Total a pagar 0.00
+
+Código: 321
+Pasajero Marco Rojas 
+Precio tiquete 200.00
+Impuestos 10.00 (%)
+Total a pagar 220.00
+
+Digite cualquier tecla para continuar ==================================================== 
+ [1] Insertar Pasajero frecuente
+ [2] Insertar Pasajero no frecuente
+ [3] Ver Pasajeros en vuelo
+ [4] Borrar lista completa de pasajeros
+ [0] Salir y retornar lista
+ ==================================================== 
+>  ==================================================== 
+ [1] Insertar vuelo local (con pasajeros)
+ [2] Insertar vuelo internacional (con pasajeros)
+ [3] Insertar vuelo carga
+ [4] Ver vuelos
+ [5] Borrar lista completa de vuelos
+ [0] Salir
+ ==================================================== 
+> Ver todos los vuelos detallados
+Número Vuelo: KF700
+Hora Salida 2018-04-02 00:00:00
+Hora Llegada 2018-04-02 00:30:00
+Venta total del vuelo =220.00
+Número mínimo de pasajeros: 20
+Código: 0
+Pasajero 
+Precio tiquete 0.00
+Impuestos 0.00 (%)
+Total a pagar 0.00
+Código: 121
+Pasajero Marco Pérez 
+Precio tiquete 200.00
+Impuestos 10.00 (%)
+Total a pagar 220.00
+
+Número Vuelo: MR300
+Hora Salida 2018-04-05 15:00:00
+Hora Llegada 2018-04-05 17:30:00
+Venta total del vuelo =220.00
+País destino: Italia
+Código: 0
+Pasajero 
+Precio tiquete 0.00
+Impuestos 0.00 (%)
+Total a pagar 0.00
+Código: 0
+Pasajero 
+Precio tiquete 0.00
+Impuestos 0.00 (%)
+Total a pagar 0.00
+Código: 321
+Pasajero Marco Rojas 
+Precio tiquete 200.00
+Impuestos 10.00 (%)
+Total a pagar 220.00
+
+Digite cualquier tecla para continuar ==================================================== 
+ [1] Insertar vuelo local (con pasajeros)
+ [2] Insertar vuelo internacional (con pasajeros)
+ [3] Insertar vuelo carga
+ [4] Ver vuelos
+ [5] Borrar lista completa de vuelos
+ [0] Salir
+ ==================================================== 
+> Programa con I/O redirigido termina 
+++++++++++++++++++++++++++++++++++++++++
+
