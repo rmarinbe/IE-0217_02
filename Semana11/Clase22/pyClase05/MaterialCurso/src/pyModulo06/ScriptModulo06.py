@@ -5,7 +5,7 @@ Created on Jan 28, 2021
 '''
 
 
-
+#%%
 # Clase vacía
 class punto:
     pass
@@ -19,6 +19,7 @@ p2.y = 6
 print(p1.x, p1.y)
 print(p2.x, p2.y)
 
+#%%
 # Método resetear traslada un punto al origen
 class Punto_:
     def resetear(self):
@@ -27,12 +28,14 @@ class Punto_:
         
 
 p = Punto_()
+#%%
 p.x = 5
 p.y = 4
 print(p.x, p.y)       
 p.resetear()
 print(p.x, p.y)
 
+#%%
 import math
 
 # Clase Punto
@@ -53,30 +56,29 @@ class Punto:
                 (self.x - otro_Punto.x)**2 +
                 (self.y - otro_Punto.y)**2)
 
-
+#%%
 # ¿Cómo usarla?
 Punto1 = Punto(2,3)
 Punto2 = Punto(-2,9)
-print(Punto1.x)
-print(Punto1.y)
-print(Punto2.x)
-print(Punto2.y)
+print(Punto1.x, Punto1.y)
+print(Punto2.x, Punto2.y)
 
+#%%
 Punto1.inicializar()
 Punto2.cambiar(5,0)
-print(Punto1.x)
-print(Punto1.y)
-print(Punto2.x)
-print(Punto2.y)
+print(Punto1.x, Punto1.y)
+print(Punto2.x, Punto2.y)
 print(Punto2.calcular_distancia(Punto1))
 Punto1.cambiar(3,4)
 print(Punto1.calcular_distancia(Punto2))
 print(Punto1.calcular_distancia(Punto1))
 
+#%%
 Punto3 = Punto() # Se invoca el constructor
 print(Punto3.x)
 print(Punto3.y)
 
+#%%
 # Ejemplo de conducta de clase
 class Estado():
     def __init__(self, nombre, estado):
@@ -101,8 +103,9 @@ control1.activado()
 
 print("El control2 está asociado a " + control2.nombre.title() + ".")
 print("El control2 está en estado " + str(control2.estado) + " de operación.")
+control1.apagado();
 
-
+#%%
 
 # HERENCIA EN PYTHON
 # Clase Base
@@ -130,20 +133,20 @@ class Carro():
         self.kilometraje += kilometros
 
 # Clase derivada o clase hija
-class Carro_Electrivo(Carro):
-    def __init__(self, fabricante, modelo, anno):
+class Carro_Electrico(Carro):
+    def __init__(self, fabricante, modelo, anno, cap_batt=80):
         super().__init__(fabricante, modelo, anno)
-        self.capacidad_bateria = 70
+        self.capacidad_bateria = cap_batt
         
     def describe_bateria(self):
         print("Este carro tiene una bateria de capacidad " + str(self.capacidad_bateria) + "-kWh.")
         
         
-Tesla = Carro_Electrivo('tesla', 'modelo S', 2018)
+Tesla = Carro_Electrico('tesla', 'modelo S', 2018, 50)
 print(Tesla.obtener_nombre_completo())
 Tesla.describe_bateria()
 
-
+#%%
 # Relaciones de Componente-Compuesto
 class Bateria():
     def __init__(self, capacidad = 70, marca = "LTH"):
@@ -156,6 +159,7 @@ class Bateria():
 mi_bateria = Bateria(90, "Hitachi")
 mi_bateria.describe()
 
+#%%
 # Clase Base
 class Carro1():
     def __init__(self, fabricante, modelo, anno):
@@ -190,6 +194,7 @@ Tesla = Carro_Electrico('tesla', 'modelo S', 2018, 65, "Hitachi")
 print(Tesla.obtener_nombre_completo())
 Tesla.bateria.describe()
 
+#%%
 # Encapsulación en Python
 # Atributos y Métodos privados
 
@@ -201,7 +206,7 @@ class Prueba1:
 tempo = Prueba1()
 tempo.dato
 
-
+#%%
 # Un atributo privado solo puede ser usado por los métodos de la propia clase
 # Se deben usar dos guiones bajos al inicio del nombre del atributo
 class Prueba2(object):
@@ -213,11 +218,12 @@ class Prueba2(object):
  
 tempo = Prueba2()
 tempo.obtener_dato()
+#%%
 # La siguiente línea no puede usarse ya que sigue dando error de acceso a partes atributos privados
-###   tempo.__dato 
+tempo.__dato 
 
 
-
+#%%
 # Métodos GETTERS AND SETTERS (Obtener y Modificar)
 class Prueba3(object):
         def __init__(self):
@@ -234,6 +240,7 @@ print(tempo.obtener_dato())
 tempo.modificar_dato(-3)
 print(tempo.obtener_dato())
 
+#%%
 
 class Prueba4(object):
         def __init__(self):
@@ -254,10 +261,12 @@ tempo.obtener_dato()
 tempo.modificar_dato(-3)
 tempo.obtener_dato()
 
+#%%
 print("Ahora por decorador")
 tempo.dato=10
 print(tempo.dato)
 
+#%%
 # La instrucción "dato = property(obtener_dato,modificar_dato)" hace que Python
 # conozca que los métodos obtener_dato() y modificar_dato() son los
 # get y set del atributo "dato".
@@ -285,6 +294,8 @@ print(tempo.dato)
 
 tempo.dato = 3
 print(tempo.dato)
+
+#%%
 ## tempo.dato = 200 # Da error controlado
 
 # MÉTODOS PRIVADOS
@@ -308,24 +319,8 @@ tempo = Prueba6("Luis")
 ##tempo.__decir_hola() # Da error pues es un método privado
 tempo.decir_hola()
 
-# Más sobre el uso de Python @property
 
-# Clase para covertir Celsius a  farenheit
-class Celsius:
-    def __init__(self, temperatura = 0):
-        self.temperatura = temperatura
-        
-    def convierte_farenheit(self):
-        return (self.temperatura * 1.8) + 32
-
-instancia = Celsius()
-# set temperatura
-instancia.temperatura = 37
-# get temperatura
-instancia.temperatura
-# Convierte la temperatura
-instancia.convierte_farenheit()
-
+#%%
 # Métodos Get (Obtener) y Set (Modificar) al estilo C++ o Java
 class Celsius1:
     def __init__(self, temperatura = 0):
@@ -344,11 +339,12 @@ class Celsius1:
 
 ##  c = Celsius1(-277)  # Da el error controlado
 c = Celsius1(37)
-c.obtener_temperatura()
+print(c.obtener_temperatura())
 c.modificar_temperatura(10)
-c.obtener_temperatura()
+print(c.obtener_temperatura())
+print(c.convierte_farenheit())
 
-
+#%%
 # Versión Usando property al verdadero estilo Python
 class Celsius2:
     def __init__(self, temperatura = 0):
@@ -371,16 +367,17 @@ class Celsius2:
     
 
 c = Celsius2()
-c.temperatura
+print(c.temperatura)
 c.temperatura = 39
 c.convierte_farenheit()
 
+#%%
 # Una forma más transparente de hacer lo anterior y que permite usar el mismo 
 # nombre en el método que el del atributo es la siguiente:
 
 class Celsius3:
     def __init__(self, temperatura = 0):
-        self.__temperatura = temperatura
+        self.temperatura = temperatura
         
     def convierte_farenheit(self):
         return (self.temperatura * 1.8) + 32
@@ -397,15 +394,13 @@ class Celsius3:
         print("Retornando el valor")
         self.__temperatura = nuevo_valor
 
-c = Celsius3()
-c.temperatura
+c = Celsius3(-3000)
+print(c.temperatura)
 c.temperatura = 37
 c.temperatura
 c.convierte_farenheit()
 
-
-
-
+#%%
 # EJEMPLO: Mi propio Data Frame usando Componente-Compuesto 
 
 import pandas as pd
@@ -428,7 +423,8 @@ class mi_DF():
     @property
     def DF(self):
         return self.__DF  
-      
+    
+    @property
     def maxximo(self):
         maxx = self.DF.iloc[0,0]
         for i in range(self.num_filas):
@@ -469,14 +465,16 @@ class mi_DF():
                 'maxximo' : maxximo,
                 'minximo' : minximo}
       
-
+#%%
 datos = mi_DF(pd.DataFrame([[4,1,-3],[2,4.4,0],[-5,9,198],[2,4,-5]]))
 print(datos.num_filas)
 print(datos.num_columnas)
 print(datos.DF)
-print(datos.maxximo())
+print(datos.maxximo)
 print(datos.valores())
-print(datos.estadisticas(1))
+print(datos.estadisticas(2))
+
+#%%
 
 # Leyendo un archivo CSV
 datos_est = pd.read_csv('../Datos/EjemploEstudiantes.csv',delimiter=';',decimal=",",index_col=0)
@@ -484,13 +482,11 @@ datos = mi_DF(datos_est)
 print(datos.num_filas)
 print(datos.num_columnas)
 print(datos.DF)
-print(datos.maxximo())
+print(datos.maxximo)
 print(datos.valores())
 
 
-
-
-
+#%%
 import math
 from math import sqrt
 
@@ -529,9 +525,13 @@ class Complex(object):
 i = Complex(2, 10j)
 k = Complex(3, 5j)
 
+#%%
+
 print(i + k)
 print(i - k)
 print(i * k)
 print(i / k)
 print(abs(i))
 print(abs(k))
+
+# %%

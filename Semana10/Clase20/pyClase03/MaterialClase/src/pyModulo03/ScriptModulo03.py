@@ -1,17 +1,26 @@
 '''
 Created on Jan 23, 2021
+Modified on Oct 20, 2022
 
 @author: freddy
+@modificado: Richard
 '''
 
+#%%
 
+# Duda clase pasada ordenar por value
+
+d = {'uno':1,'tres':3,'cinco':5,'dos':2,'cuatro':4}
+a = sorted(d.items(), key=lambda x: x[1])    
+print(a)
+
+#%%
 
 # FUNCIONES:
 
 # def nombre_funcion(parametro_0, ... , parametro_n):
 #    Desarrollo de la función tabulado.
 #    return valor  
-    
 # Función suma(x,y)
     
 # Se define la función
@@ -23,7 +32,7 @@ def suma(x,y):
 res = suma(30,12)
 print(res)
 
-
+#%%
 
 
 # Definición de la función imprime_informacion.
@@ -35,7 +44,7 @@ def imprime_informacion(usuario):
 imprime_informacion('jose')
 imprime_informacion('eduardo')
 
-
+#%%
 
 # Definición de una función con parámetros estatícos. No tienen valor por omision y deben aporarse ambos siempre.
 def area_triangulo_estica(base,altura):
@@ -49,7 +58,7 @@ area_triangulo_estica(base=10, altura=15)
 
 area_triangulo_estica(altura=15, base=10)
 
-
+#%%
 
 # Valores por defecto en parámetros
 
@@ -61,14 +70,14 @@ def area_triangulo(base=1,altura=1):
 area_triangulo(30,15)
 
 # Usa los valores por defecto
-area_triangulo(30)
+print(area_triangulo(30))
 print("++++++++++++++++\n")
 
-area_triangulo()
+print(area_triangulo())
 print("++++++++++++++++\n")
 
 
-
+#%%
 
 # Retornando conjuntos con valores
 # Retornando un diccionario (Similar a R que se retorna una lista)
@@ -91,7 +100,7 @@ print(usuario)
 usuario = nombre_completo('Juan Mora', 'Fernández',edad=50)
 print(usuario)
 
-
+#%%
 
 def conformacion_lista_impares(datos_impares=0):
   lista=[]
@@ -104,7 +113,7 @@ lista_impares=conformacion_lista_impares(151)
 print(lista_impares)
 
 
-
+#%%
 
 # Ejemplo con if: El mayor entre 3 números
 def mayor(A, B, C):
@@ -117,7 +126,7 @@ def mayor(A, B, C):
 
 mayor(9,0,2)
 
-
+#%%
 
 # Ejemplo con for
 # construye un vector “v” 
@@ -135,7 +144,7 @@ def cvector_f(n):
 cvector_f(9)
 cvector_f(35)
 
-
+#%%
 
 # Otro Ejemplo con for: Norma de un vector
 def norma1(v):
@@ -150,7 +159,7 @@ norma1(vec0)
 v=(-1, 20, 38, -4, 51, -6, -7, 82, 91, 20)
 norma1(v)
 
-
+#%%
 
 
 # Ejemplo
@@ -181,7 +190,7 @@ y = mat_x_vec(A,x)
 print(y)
 
 
-
+#%%
 
 # Ejemplo
 # La siguiente función multiplica una matriz por un vector.
@@ -203,8 +212,6 @@ def mat_x_vec2(A,x):
       y[i] = y[i] + A[i,j]*x[j]
   return(y)
 
-
-
 #Construcción de solución
 # Matriz
 A = np.matrix([[4,1,-3],[2,4.4,0],[-5,9,198],[2,4,-5]])
@@ -223,7 +230,7 @@ y = mat_x_vec2(A,x)
 print(y)
 
 
-
+#%%
 
 def ordenamientoBurbuja(unaLista):
     for numPasada in range(len(unaLista)-1,0,-1):
@@ -239,7 +246,7 @@ unaLista = [54,26,93,17,77,31,44,55,20]
 ordenamientoBurbuja(unaLista)
 print(unaLista)
 
-
+#%%
 
 def ShowordenamientoBurbuja(unaLista):
     for numPasada in range(len(unaLista)-1,0,-1):
@@ -256,7 +263,7 @@ print(unaLista)
 ShowordenamientoBurbuja(unaLista)
 print(unaLista)
 
-
+#%%
 
 
 # Definición de funciones para ordenamiento rápido de un vector de datos.
@@ -322,7 +329,7 @@ quicksort(arreglo, 0, len(arreglo) - 1)
 print("Después de ordenarlo: ")
 print(arreglo)
 
-
+#%%
 
 # Se construye la serie mediante la utilización de datos en parejas, una de las capacidades de Python.
 def fibonacci(n):
@@ -340,7 +347,7 @@ def fibonacci(n):
 fibonacci(5)
 fibonacci(100)
 
-
+#%%
 
 def Fibonacci(n):
   '''
@@ -356,5 +363,15 @@ def Fibonacci(n):
 serie=Fibonacci(5)
 print(serie)
 
-serie1=Fibonacci(100)
+serie1=Fibonacci(10000)
 print(serie1)
+
+#%%
+import numpy as np
+from matplotlib import pyplot as plt
+
+n=len(serie1)
+y = np.linspace(1,n,n,dtype=int)
+plt.plot(y, serie1)
+
+# %%

@@ -34,7 +34,7 @@ print( edad > 21 )
 print( edad >= 21)
 print( edad == 22 )
 print( edad == 18 )
-print( (edad >= 21) and (edad >= 21))
+print( not(edad >= 21) or (edad >= 20))
 #%%
 
 # Operador in
@@ -136,11 +136,11 @@ while activo:
     else:
         print(mensaje[indice])
     indice+=1
-    
+print("fin") 
 #%%
 # Operador módulo %
 
-numero= 150
+numero= 151
 if numero % 2 == 0:
     print("\nEl número " + str(numero) + " es par.")
 else:
@@ -154,7 +154,8 @@ print(contenedor['distancia'])
 print(contenedor)
 
 #%%
-contenedor={"color":"azul","distancia":5,"edad":20}
+pablo=24
+contenedor={"color":"azul","distancia":5,"edad":20, "nombres": ["jose", pablo]}
 print(contenedor)
 
 #%%
@@ -187,13 +188,15 @@ usuario = {
 print(usuario.items())
 
 #%%
-for key, value in usuario.items():
-    print("\nLlave: " + key)
-    print("Valor: " + value)
+for k, v in usuario.items():
+    print("\nLlave: " + k)
+    print("Valor: " + v)
     
-print(usuario.keys())
+print(list(usuario.keys()))
 
-print(usuario.values())    
+print(list(usuario.values())) 
+
+print(list(usuario.items()))   
   
 #%%
 programadores={"juan":"Java","jose":"Python","eduardo":"C++","juan_carlos":"Python","carla":"R","monica":"Ruby"} 
@@ -258,5 +261,11 @@ for usuario, info_usuario in usuarios.items():
     print("\tNombre Completo: " + nombre_completo.title())
     print("\tLugar: " + lugar.title())
     
+
+# %%
+persona = {
+    "cedula": 23333,
+    "hijos": {"marco": {"edad":23,"altura": 171}, "maria": {"edad":12,"altura": 173}}
+}
 
 # %%

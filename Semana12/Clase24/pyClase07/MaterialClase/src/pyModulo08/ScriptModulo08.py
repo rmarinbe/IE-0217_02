@@ -207,7 +207,7 @@ class FacturaCredito(Factura) :
             return(self.__Plazo)
             
         @Plazo.setter    
-        def Codigo(self, plazo) :
+        def Plazo(self, plazo) :
             self.__Plazo = plazo
 
         def __extCaptura__(self):

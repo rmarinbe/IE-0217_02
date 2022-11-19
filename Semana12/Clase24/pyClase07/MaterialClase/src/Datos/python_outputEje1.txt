@@ -29,7 +29,7 @@ Porcentaje de impuestos (%):
  ==================================================== 
 > 
 1
-Agregando compra a factura número 3
+Agregando compra a factura número 12500
 Código de compra: 
 1200
 Descripción de compra: 
@@ -44,7 +44,7 @@ MontoCompra:
  ==================================================== 
 > 
 1
-Agregando compra a factura número 3
+Agregando compra a factura número 12500
 Código de compra: 
 1201
 Descripción de compra: 
@@ -59,7 +59,7 @@ MontoCompra:
  ==================================================== 
 > 
 2
-Mostrando todas las compras de factura número 3
+Mostrando todas las compras de factura número 12500
 Código de compra: 1200
 Descripción de compra Abarrotes varios
 MontoCompra 2000.00
